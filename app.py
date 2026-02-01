@@ -5,12 +5,14 @@ import time
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
+# Dependency mapping (can expand later)
 DEPENDENCIES = {
     "https://www.uidai.gov.in": ["https://www.digilocker.gov.in"],
     "https://www.onlinesbi.com": ["https://www.digilocker.gov.in"],
     "https://www.digilocker.gov.in": ["https://api.publicapis.org/entries"],
 }
 
+<<<<<<< HEAD
 TREND_WINDOW = 10
 
 HIGH_RISK_RESPONSE_THRESHOLD = 3.0
@@ -68,12 +70,20 @@ def _compute_response_trend(service_df, window=TREND_WINDOW):
     model.fit(X, y)
     slope = model.coef_[0][0]
     return float(slope)
+=======
+# ---------------- AI RISK PREDICTION ---------------- #
+>>>>>>> origin/dpi
 
 def predict_risk(service_df):
     if len(service_df) < 5:
         return "UNKNOWN", None
     service_df = service_df.sort_values("Timestamp")
+<<<<<<< HEAD
     recent = service_df.tail(TREND_WINDOW)
+=======
+    recent = service_df.tail(10)
+
+>>>>>>> origin/dpi
     X = np.arange(len(recent)).reshape(-1, 1)
     y = recent["Response_Time"].fillna(5).values.reshape(-1, 1)
     model = LinearRegression()
@@ -87,15 +97,23 @@ def predict_risk(service_df):
     else:
         return "LOW RISK", round(predicted_next, 2)
 
+# ---------------- CASCADING RISK ---------------- #
+
 def apply_cascading_risk(risk_df):
     cascaded = risk_df.copy()
     for parent, children in DEPENDENCIES.items():
         parent_row = cascaded[cascaded["Website"] == parent]
+<<<<<<< HEAD
         if len(parent_row) == 0:
+=======
+
+        if parent_row.empty:
+>>>>>>> origin/dpi
             continue
         parent_risk = parent_row.iloc[0]["AI_Risk_Level"]
         if parent_risk == "HIGH RISK":
             for child in children:
+<<<<<<< HEAD
                 cascaded.loc[cascaded["Website"] == child, "AI_Risk_Level"] = "HIGH RISK (CASCADING)"
         elif parent_risk == "MODERATE RISK":
             for child in children:
@@ -276,10 +294,55 @@ st.title("DPI Services Observability Dashboard")
 df = pd.read_csv("dpi_monitor_data.csv")
 df["Timestamp"] = pd.to_datetime(df["Timestamp"])
 latest = df.sort_values("Timestamp").groupby("Website").tail(1)
+=======
+                cascaded.loc[
+                    cascaded["Website"] == child,
+                    "AI_Risk_Level"
+                ] = "HIGH RISK (CASCADING)"
+
+        elif parent_risk == "MODERATE RISK":
+            for child in children:
+                if "LOW" in str(
+                    cascaded.loc[
+                        cascaded["Website"] == child,
+                        "AI_Risk_Level"
+                    ].values
+                ):
+                    cascaded.loc[
+                        cascaded["Website"] == child,
+                        "AI_Risk_Level"
+                    ] = "MODERATE RISK (CASCADING)"
+
+    return cascaded
+
+# ---------------- STREAMLIT UI ---------------- #
+
+st.set_page_config(
+    page_title="DPI Observability",
+    layout="wide"
+)
+
+st.title("DPI Services Observability Dashboard")
+
+# Read CSV with Reason column
+df = pd.read_csv(
+    "dpi_monitor_data.csv",
+    header=None,
+    names=["Website", "Status", "Response_Time", "Reason", "Timestamp"]
+)
+
+df["Timestamp"] = pd.to_datetime(df["Timestamp"])
+
+# Latest status per website
+latest = df.sort_values("Timestamp").groupby("Website").tail(1)
+
+# ---------------- CURRENT HEALTH ---------------- #
+
+>>>>>>> origin/dpi
 st.subheader("Current Service Health + AI Risk Prediction")
 risk_rows = []
 for site in df["Website"].unique():
-    site_df = df[df["Website"] == site]
+    site_df = df[df["Website"] == site].copy()
     latest_row = site_df.sort_values("Timestamp").iloc[-1]
     risk, predicted = predict_risk(site_df)
     risk_rows.append(
@@ -293,15 +356,38 @@ for site in df["Website"].unique():
     )
 risk_df = pd.DataFrame(risk_rows)
 risk_df = apply_cascading_risk(risk_df)
+<<<<<<< HEAD
 st.dataframe(risk_df, width="stretch")
 st.subheader("Alerts")
+=======
+
+st.dataframe(risk_df, use_container_width=True)
+
+# ---------------- ALERTS ---------------- #
+
+st.subheader("Live Alerts")
+
+>>>>>>> origin/dpi
 for _, row in latest.iterrows():
     if row["Status"] != "UP":
-        st.error(f"{row['Website']} is DOWN")
+        st.error(
+            f"{row['Website']} is DOWN\n"
+            f"Reason: {row['Reason']}"
+        )
     elif row["Response_Time"] is not None and row["Response_Time"] > 2:
+<<<<<<< HEAD
         st.warning(f"{row['Website']} is SLOW ({row['Response_Time']} sec)")
+=======
+        st.warning(
+            f"{row['Website']} is SLOW ({row['Response_Time']} sec)"
+        )
+
+# ---------------- AI EARLY WARNING ---------------- #
+
+>>>>>>> origin/dpi
 st.subheader("AI Early Warning System")
 for _, row in risk_df.iterrows():
+<<<<<<< HEAD
     if row["AI_Risk_Level"] == "HIGH RISK":
         st.error(f"{row['Website']} predicted to FAIL soon! (Predicted {row['Predicted_Next_Response_Time']} sec)")
     elif row["AI_Risk_Level"] == "MODERATE RISK":
@@ -344,6 +430,45 @@ else:
 st.subheader("Response Time Trend")
 fig = px.line(df, x="Timestamp", y="Response_Time", color="Website", markers=True)
 st.plotly_chart(fig, use_container_width=True)
+=======
+    reason_row = latest[latest["Website"] == row["Website"]]
+    reason_text = (
+        reason_row.iloc[0]["Reason"]
+        if not reason_row.empty
+        else "No anomaly detected"
+    )
+
+    if "HIGH" in row["AI_Risk_Level"]:
+        st.error(
+            f"{row['Website']} predicted to FAIL soon!\n"
+            f"Reason: {reason_text}\n"
+            f"Predicted Response Time: {row['Predicted_Next_Response_Time']} sec"
+        )
+
+    elif "MODERATE" in row["AI_Risk_Level"]:
+        st.warning(
+            f"{row['Website']} under stress\n"
+            f"Reason: {reason_text}\n"
+            f"Predicted Response Time: {row['Predicted_Next_Response_Time']} sec"
+        )
+
+# ---------------- RESPONSE TIME GRAPH ---------------- #
+
+st.subheader("Response Time Trend (All Services)")
+
+fig = px.line(
+    df,
+    x="Timestamp",
+    y="Response_Time",
+    color="Website",
+    markers=True
+)
+
+st.plotly_chart(fig, use_container_width=True)
+
+# ---------------- AUTO REFRESH ---------------- #
+
+>>>>>>> origin/dpi
 st.caption("Auto refresh every 30 seconds")
 time.sleep(30)
 st.rerun()

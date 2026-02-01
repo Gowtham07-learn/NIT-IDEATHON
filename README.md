@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Running the Project Locally
 
 Prerequisites:
@@ -230,3 +231,5 @@ Simulated post-fix response time
 Simulated post-fix risk level
 
 Clear note indicating simulation only
+=======
+>>>>>>> origin/dpi
