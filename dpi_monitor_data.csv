@@ -1,60 +1,440 @@
-https://www.uidai.gov.in,UP,0.81,Healthy,2026-01-29 21:15:46.043165
-https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:15:46.629259
-https://www.digilocker.gov.in,UP,2.06,Healthy,2026-01-29 21:15:48.684957
-https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:15:48.764534
-https://www.india.gov.in,UP,6.01,Healthy,2026-01-29 21:15:54.778811
-https://www.incometax.gov.in,UP,2.16,Healthy,2026-01-29 21:15:56.943245
-https://www.epfindia.gov.in,UP,2.42,Healthy,2026-01-29 21:15:59.366548
-https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-01-29 21:16:09.876615
-https://data.gov.in,UP,10.21,Healthy,2026-01-29 21:16:20.086047
-https://www.meity.gov.in,UP,5.92,Healthy,2026-01-29 21:16:26.005169
-https://www.uidai.gov.in,UP,0.76,Healthy,2026-01-29 21:16:56.796436
-https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:16:57.407955
-https://www.digilocker.gov.in,UP,2.24,Healthy,2026-01-29 21:16:59.649620
-https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:16:59.656383
-https://www.india.gov.in,UP,0.81,Healthy,2026-01-29 21:17:00.469031
-https://www.incometax.gov.in,UP,0.89,Healthy,2026-01-29 21:17:01.358929
-https://www.epfindia.gov.in,UP,1.25,Healthy,2026-01-29 21:17:02.604468
-https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-01-29 21:17:08.260232
-https://data.gov.in,UP,2.42,Healthy,2026-01-29 21:17:10.694386
-https://www.meity.gov.in,UP,0.84,Healthy,2026-01-29 21:17:11.532013
-https://www.uidai.gov.in,UP,1.04,Healthy,2026-01-29 21:17:42.583004
-https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:17:42.804995
-https://www.digilocker.gov.in,UP,0.84,Healthy,2026-01-29 21:17:43.646827
-https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:17:43.657475
-https://www.india.gov.in,UP,11.67,Healthy,2026-01-29 21:17:55.342662
-https://www.incometax.gov.in,UP,1.21,Healthy,2026-01-29 21:17:56.555544
-https://www.epfindia.gov.in,UP,1.59,Healthy,2026-01-29 21:17:58.146828
-https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-01-29 21:18:04.025309
-https://data.gov.in,UP,3.04,Healthy,2026-01-29 21:18:07.072617
-https://www.meity.gov.in,UP,1.34,Healthy,2026-01-29 21:18:08.414604
-https://www.uidai.gov.in,UP,1.87,Healthy,2026-01-29 21:18:40.300066
-https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:18:40.661524
-https://www.digilocker.gov.in,UP,1.25,Healthy,2026-01-29 21:18:41.924982
-https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:18:41.924982
-https://www.india.gov.in,UP,1.69,Healthy,2026-01-29 21:18:43.619327
-https://www.incometax.gov.in,UP,3.21,Healthy,2026-01-29 21:18:46.829901
-https://www.epfindia.gov.in,UP,2.42,Healthy,2026-01-29 21:18:49.248093
-https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-01-29 21:18:56.427225
-https://data.gov.in,UP,4.47,Healthy,2026-01-29 21:19:00.906646
-https://www.meity.gov.in,UP,1.28,Healthy,2026-01-29 21:19:02.190785
-https://www.uidai.gov.in,UP,1.86,Healthy,2026-01-29 21:19:34.069808
-https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:19:34.230765
-https://www.digilocker.gov.in,UP,2.03,Healthy,2026-01-29 21:19:36.269553
-https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:19:36.286768
-https://www.india.gov.in,UP,3.33,Healthy,2026-01-29 21:19:39.618161
-https://www.incometax.gov.in,UP,2.41,Healthy,2026-01-29 21:19:42.030414
-https://www.epfindia.gov.in,UP,1.93,Healthy,2026-01-29 21:19:43.962657
-https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-01-29 21:19:50.310670
-https://data.gov.in,UP,2.95,Healthy,2026-01-29 21:19:53.262642
-https://www.meity.gov.in,UP,1.34,Healthy,2026-01-29 21:19:54.609177
-https://www.uidai.gov.in,UP,2.29,Healthy,2026-01-29 21:20:26.920233
-https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:20:27.182342
-https://www.digilocker.gov.in,UP,1.39,Healthy,2026-01-29 21:20:28.573372
-https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-01-29 21:20:28.591369
-https://www.india.gov.in,UP,2.08,Healthy,2026-01-29 21:20:30.703621
-https://www.incometax.gov.in,UP,1.96,Healthy,2026-01-29 21:20:32.661482
-https://www.epfindia.gov.in,UP,2.25,Healthy,2026-01-29 21:20:34.918502
-https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-01-29 21:20:41.347557
-https://data.gov.in,UP,5.04,Healthy,2026-01-29 21:20:46.398123
-https://www.meity.gov.in,UP,1.57,Healthy,2026-01-29 21:20:47.971462
+https://www.uidai.gov.in,UP,1.13,Healthy,2026-02-01 12:42:12.753332
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:42:13.355562
+https://www.digilocker.gov.in,UP,0.88,Healthy,2026-02-01 12:42:14.239418
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:42:14.316662
+https://www.india.gov.in,UP,1.35,Healthy,2026-02-01 12:42:15.666990
+https://www.incometax.gov.in,UP,1.42,Healthy,2026-02-01 12:42:17.094271
+https://www.epfindia.gov.in,UP,1.84,Healthy,2026-02-01 12:42:18.938906
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:42:24.979236
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:42:25.860045
+https://www.meity.gov.in,UP,6.12,Healthy,2026-02-01 12:42:31.983177
+https://www.uidai.gov.in,UP,1.86,Healthy,2026-02-01 12:43:03.896748
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:43:04.146230
+https://www.digilocker.gov.in,UP,1.55,Healthy,2026-02-01 12:43:05.699584
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:43:05.755536
+https://www.india.gov.in,UP,6.73,Healthy,2026-02-01 12:43:12.489773
+https://www.incometax.gov.in,UP,1.7,Healthy,2026-02-01 12:43:14.188310
+https://www.epfindia.gov.in,UP,3.21,Healthy,2026-02-01 12:43:17.401217
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:43:24.176725
+https://data.gov.in,UP,14.18,Healthy,2026-02-01 12:43:38.365175
+https://www.meity.gov.in,UP,12.21,Healthy,2026-02-01 12:43:50.583113
+https://www.uidai.gov.in,UP,1.69,Healthy,2026-02-01 12:44:22.305848
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:44:22.636889
+https://www.digilocker.gov.in,UP,1.89,Healthy,2026-02-01 12:44:24.533268
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:44:24.546550
+https://www.india.gov.in,UP,2.07,Healthy,2026-02-01 12:44:26.623419
+https://www.incometax.gov.in,UP,1.44,Healthy,2026-02-01 12:44:28.067317
+https://www.epfindia.gov.in,UP,1.91,Healthy,2026-02-01 12:44:29.979853
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:44:36.319287
+https://data.gov.in,UP,3.76,Healthy,2026-02-01 12:44:40.081950
+https://www.meity.gov.in,UP,1.85,Healthy,2026-02-01 12:44:41.934286
+https://www.uidai.gov.in,UP,1.46,Healthy,2026-02-01 12:45:13.404279
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:45:14.636439
+https://www.digilocker.gov.in,UP,1.48,Healthy,2026-02-01 12:45:16.117400
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:45:16.139430
+https://www.india.gov.in,UP,1.49,Healthy,2026-02-01 12:45:17.627389
+https://www.incometax.gov.in,UP,1.42,Healthy,2026-02-01 12:45:19.047992
+https://www.epfindia.gov.in,UP,2.36,Healthy,2026-02-01 12:45:21.406799
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:45:27.958784
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:45:29.207425
+https://www.meity.gov.in,UP,1.71,Healthy,2026-02-01 12:45:30.920124
+https://www.uidai.gov.in,UP,1.7,Healthy,2026-02-01 12:46:02.627245
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:46:02.806191
+https://www.digilocker.gov.in,UP,1.44,Healthy,2026-02-01 12:46:04.249792
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:46:04.257771
+https://www.india.gov.in,UP,11.77,Healthy,2026-02-01 12:46:16.026863
+https://www.incometax.gov.in,UP,13.11,Healthy,2026-02-01 12:46:29.145134
+https://www.epfindia.gov.in,UP,2.63,Healthy,2026-02-01 12:46:31.777280
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:46:44.905053
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:46:46.462719
+https://www.meity.gov.in,UP,6.74,Healthy,2026-02-01 12:46:53.207005
+https://www.uidai.gov.in,UP,1.83,Healthy,2026-02-01 12:47:25.062868
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:47:25.473656
+https://www.digilocker.gov.in,UP,1.49,Healthy,2026-02-01 12:47:26.967082
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:47:27.006452
+https://www.india.gov.in,UP,3.19,Healthy,2026-02-01 12:47:30.199089
+https://www.incometax.gov.in,UP,3.33,Healthy,2026-02-01 12:47:33.530505
+https://www.epfindia.gov.in,UP,3.31,Healthy,2026-02-01 12:47:36.842025
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:47:43.191902
+https://data.gov.in,UP,5.67,Healthy,2026-02-01 12:47:48.865401
+https://www.meity.gov.in,UP,2.54,Healthy,2026-02-01 12:47:51.403653
+https://www.uidai.gov.in,UP,1.54,Healthy,2026-02-01 12:48:22.949811
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:48:23.421490
+https://www.digilocker.gov.in,UP,2.34,Healthy,2026-02-01 12:48:25.766977
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:48:25.788108
+https://www.india.gov.in,UP,3.63,Healthy,2026-02-01 12:48:29.424723
+https://www.incometax.gov.in,UP,2.42,Healthy,2026-02-01 12:48:31.840749
+https://www.epfindia.gov.in,UP,2.66,Healthy,2026-02-01 12:48:34.500014
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:48:41.059312
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:48:42.475407
+https://www.meity.gov.in,UP,2.12,Healthy,2026-02-01 12:48:44.623823
+https://www.uidai.gov.in,UP,3.03,Healthy,2026-02-01 12:49:17.692702
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:49:18.177236
+https://www.digilocker.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:49:19.705024
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:49:19.726014
+https://www.india.gov.in,UP,1.61,Healthy,2026-02-01 12:49:21.341248
+https://www.incometax.gov.in,UP,2.19,Healthy,2026-02-01 12:49:23.535970
+https://www.epfindia.gov.in,UP,4.86,Healthy,2026-02-01 12:49:28.397724
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:49:39.505783
+https://data.gov.in,UP,15.23,Healthy,2026-02-01 12:49:54.824402
+https://www.meity.gov.in,UP,3.02,Healthy,2026-02-01 12:49:57.869133
+https://www.uidai.gov.in,UP,1.92,Healthy,2026-02-01 12:50:29.813903
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:50:30.093865
+https://www.digilocker.gov.in,UP,1.94,Healthy,2026-02-01 12:50:32.038265
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:50:32.042322
+https://www.india.gov.in,UP,2.21,Healthy,2026-02-01 12:50:34.249558
+https://www.incometax.gov.in,UP,1.64,Healthy,2026-02-01 12:50:35.888779
+https://www.epfindia.gov.in,UP,3.11,Healthy,2026-02-01 12:50:39.001162
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:50:45.873495
+https://data.gov.in,UP,5.29,Healthy,2026-02-01 12:50:51.178166
+https://www.meity.gov.in,UP,1.5,Healthy,2026-02-01 12:50:52.680309
+https://www.uidai.gov.in,UP,1.37,Healthy,2026-02-01 12:51:24.066045
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:51:24.457734
+https://www.digilocker.gov.in,UP,1.7,Healthy,2026-02-01 12:51:26.166492
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:51:26.210315
+https://www.india.gov.in,UP,11.75,Healthy,2026-02-01 12:51:37.971469
+https://www.incometax.gov.in,UP,11.59,Healthy,2026-02-01 12:51:49.561584
+https://www.epfindia.gov.in,UP,2.16,Healthy,2026-02-01 12:51:51.732742
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:52:08.402965
+https://data.gov.in,UP,14.98,Healthy,2026-02-01 12:52:23.391451
+https://www.meity.gov.in,UP,2.82,Healthy,2026-02-01 12:52:26.228443
+https://www.uidai.gov.in,UP,1.75,Healthy,2026-02-01 12:52:58.000777
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:52:58.302512
+https://www.digilocker.gov.in,UP,1.59,Healthy,2026-02-01 12:52:59.898839
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:53:00.125470
+https://www.india.gov.in,UP,1.76,Healthy,2026-02-01 12:53:01.890941
+https://www.incometax.gov.in,UP,2.03,Healthy,2026-02-01 12:53:03.918752
+https://www.epfindia.gov.in,UP,4.01,Healthy,2026-02-01 12:53:07.925821
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:53:15.033983
+https://data.gov.in,UP,5.24,Healthy,2026-02-01 12:53:20.275266
+https://www.meity.gov.in,UP,1.71,Healthy,2026-02-01 12:53:21.993568
+https://www.uidai.gov.in,UP,1.67,Healthy,2026-02-01 12:53:53.679140
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:53:55.705452
+https://www.digilocker.gov.in,UP,1.53,Healthy,2026-02-01 12:53:57.242134
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:53:57.249203
+https://www.india.gov.in,UP,12.2,Healthy,2026-02-01 12:54:09.448701
+https://www.incometax.gov.in,UP,14.25,Healthy,2026-02-01 12:54:23.737144
+https://www.epfindia.gov.in,UP,4.95,Healthy,2026-02-01 12:54:28.683172
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:54:45.351629
+https://data.gov.in,UP,4.59,Healthy,2026-02-01 12:54:49.941292
+https://www.meity.gov.in,UP,2.57,Healthy,2026-02-01 12:54:52.506447
+https://www.uidai.gov.in,UP,2.29,Healthy,2026-02-01 12:55:24.807708
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:55:26.178549
+https://www.digilocker.gov.in,UP,1.9,Healthy,2026-02-01 12:55:28.080441
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:55:28.276801
+https://www.india.gov.in,UP,1.55,Healthy,2026-02-01 12:55:29.831846
+https://www.incometax.gov.in,UP,1.76,Healthy,2026-02-01 12:55:31.596905
+https://www.epfindia.gov.in,UP,3.25,Healthy,2026-02-01 12:55:34.848553
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:55:41.785048
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:55:43.654803
+https://www.meity.gov.in,UP,2.34,Healthy,2026-02-01 12:55:46.005792
+https://www.uidai.gov.in,UP,1.54,Healthy,2026-02-01 12:56:17.574928
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:56:17.686194
+https://www.digilocker.gov.in,UP,2.46,Healthy,2026-02-01 12:56:20.184893
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:56:20.200388
+https://www.india.gov.in,UP,12.33,Healthy,2026-02-01 12:56:32.531757
+https://www.incometax.gov.in,UP,1.94,Healthy,2026-02-01 12:56:34.474497
+https://www.epfindia.gov.in,UP,2.92,Healthy,2026-02-01 12:56:37.391905
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:56:44.222616
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:56:46.131939
+https://www.meity.gov.in,UP,1.83,Healthy,2026-02-01 12:56:47.963664
+https://www.uidai.gov.in,UP,1.48,Healthy,2026-02-01 12:57:19.460350
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:57:19.590281
+https://www.digilocker.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:57:21.195645
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:57:21.221310
+https://www.india.gov.in,UP,1.94,Healthy,2026-02-01 12:57:23.163217
+https://www.incometax.gov.in,UP,2.08,Healthy,2026-02-01 12:57:25.256862
+https://www.epfindia.gov.in,UP,2.93,Healthy,2026-02-01 12:57:28.184602
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:57:34.613547
+https://data.gov.in,UP,4.33,Healthy,2026-02-01 12:57:38.949378
+https://www.meity.gov.in,UP,1.62,Healthy,2026-02-01 12:57:40.571850
+https://www.uidai.gov.in,UP,1.61,Healthy,2026-02-01 12:58:12.217178
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:58:13.993912
+https://www.digilocker.gov.in,UP,1.91,Healthy,2026-02-01 12:58:15.914128
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:58:15.928446
+https://www.india.gov.in,UP,3.17,Healthy,2026-02-01 12:58:19.099008
+https://www.incometax.gov.in,UP,1.69,Healthy,2026-02-01 12:58:20.784960
+https://www.epfindia.gov.in,UP,3.2,Healthy,2026-02-01 12:58:23.982346
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:58:30.775312
+https://data.gov.in,UP,6.34,Healthy,2026-02-01 12:58:37.126949
+https://www.meity.gov.in,UP,1.89,Healthy,2026-02-01 12:58:39.037629
+https://www.uidai.gov.in,UP,2.16,Healthy,2026-02-01 12:59:11.228765
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:59:13.116770
+https://www.digilocker.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:59:14.750882
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 12:59:14.755136
+https://www.india.gov.in,UP,2.14,Healthy,2026-02-01 12:59:16.893833
+https://www.incometax.gov.in,UP,1.56,Healthy,2026-02-01 12:59:18.449078
+https://www.epfindia.gov.in,UP,3.06,Healthy,2026-02-01 12:59:21.509134
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 12:59:30.337852
+https://data.gov.in,UP,5.5,Healthy,2026-02-01 12:59:35.844535
+https://www.meity.gov.in,UP,2.26,Healthy,2026-02-01 12:59:38.161472
+https://www.uidai.gov.in,UP,1.99,Healthy,2026-02-01 13:00:10.180783
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:00:10.491275
+https://www.digilocker.gov.in,UP,1.98,Healthy,2026-02-01 13:00:12.476522
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:00:12.476522
+https://www.india.gov.in,UP,2.18,Healthy,2026-02-01 13:00:14.655675
+https://www.incometax.gov.in,UP,15.11,Healthy,2026-02-01 13:00:29.771683
+https://www.epfindia.gov.in,UP,7.48,Healthy,2026-02-01 13:00:37.289692
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:00:57.952264
+https://data.gov.in,UP,10.8,Healthy,2026-02-01 13:01:08.770093
+https://www.meity.gov.in,UP,4.8,Healthy,2026-02-01 13:01:13.567430
+https://www.uidai.gov.in,UP,2.1,Healthy,2026-02-01 13:01:45.690463
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:01:45.788846
+https://www.digilocker.gov.in,UP,1.74,Healthy,2026-02-01 13:01:47.538711
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:01:47.546588
+https://www.india.gov.in,UP,12.43,Healthy,2026-02-01 13:01:59.979475
+https://www.incometax.gov.in,UP,13.45,Healthy,2026-02-01 13:02:13.440642
+https://www.epfindia.gov.in,UP,2.4,Healthy,2026-02-01 13:02:15.845577
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:02:33.066966
+https://data.gov.in,UP,16.44,Healthy,2026-02-01 13:02:49.513159
+https://www.meity.gov.in,UP,12.21,Healthy,2026-02-01 13:03:01.720992
+https://www.uidai.gov.in,UP,3.7,Healthy,2026-02-01 13:03:35.589257
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:03:37.033586
+https://www.digilocker.gov.in,UP,3.24,Healthy,2026-02-01 13:03:40.294168
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:03:40.364130
+https://www.india.gov.in,UP,11.86,Healthy,2026-02-01 13:03:52.224817
+https://www.incometax.gov.in,UP,12.15,Healthy,2026-02-01 13:04:04.376430
+https://www.epfindia.gov.in,UP,3.62,Healthy,2026-02-01 13:04:07.999835
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:04:25.427468
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:04:27.331086
+https://www.meity.gov.in,UP,7.25,Healthy,2026-02-01 13:04:34.586790
+https://www.uidai.gov.in,UP,3.06,Healthy,2026-02-01 13:05:07.657000
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:05:08.181777
+https://www.digilocker.gov.in,UP,1.99,Healthy,2026-02-01 13:05:10.174113
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:05:10.183123
+https://www.india.gov.in,UP,11.79,Healthy,2026-02-01 13:05:21.971043
+https://www.incometax.gov.in,UP,11.87,Healthy,2026-02-01 13:05:33.840852
+https://www.epfindia.gov.in,UP,2.28,Healthy,2026-02-01 13:05:36.127442
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:05:53.893087
+https://data.gov.in,UP,15.27,Healthy,2026-02-01 13:06:09.175109
+https://www.meity.gov.in,UP,1.78,Healthy,2026-02-01 13:06:10.956722
+https://www.uidai.gov.in,UP,2.28,Healthy,2026-02-01 13:06:43.253579
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:06:43.620297
+https://www.digilocker.gov.in,UP,1.37,Healthy,2026-02-01 13:06:44.992050
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:06:45.002424
+https://www.india.gov.in,UP,6.35,Healthy,2026-02-01 13:06:51.353103
+https://www.incometax.gov.in,UP,1.26,Healthy,2026-02-01 13:06:52.610927
+https://www.epfindia.gov.in,UP,1.96,Healthy,2026-02-01 13:06:54.570182
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:07:01.091021
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:07:02.437972
+https://www.meity.gov.in,UP,1.62,Healthy,2026-02-01 13:07:04.062172
+https://www.uidai.gov.in,UP,1.35,Healthy,2026-02-01 13:07:35.424708
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:07:35.707705
+https://www.digilocker.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:07:36.774687
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:07:36.816049
+https://www.india.gov.in,UP,1.75,Healthy,2026-02-01 13:07:38.562622
+https://www.incometax.gov.in,UP,1.61,Healthy,2026-02-01 13:07:40.190411
+https://www.epfindia.gov.in,UP,1.86,Healthy,2026-02-01 13:07:42.057207
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:07:48.403945
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:07:49.666743
+https://www.meity.gov.in,UP,1.47,Healthy,2026-02-01 13:07:51.139352
+https://www.uidai.gov.in,UP,1.29,Healthy,2026-02-01 13:08:22.457508
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:08:22.904408
+https://www.digilocker.gov.in,UP,1.16,Healthy,2026-02-01 13:08:24.065447
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:08:24.073918
+https://www.india.gov.in,UP,1.2,Healthy,2026-02-01 13:08:25.272869
+https://www.incometax.gov.in,UP,1.43,Healthy,2026-02-01 13:08:26.707025
+https://www.epfindia.gov.in,UP,2.27,Healthy,2026-02-01 13:08:28.974286
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:08:35.105718
+https://data.gov.in,UP,2.98,Healthy,2026-02-01 13:08:38.089532
+https://www.meity.gov.in,UP,1.17,Healthy,2026-02-01 13:08:39.264199
+https://www.uidai.gov.in,UP,1.53,Healthy,2026-02-01 13:09:10.809843
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:09:11.152825
+https://www.digilocker.gov.in,UP,2.33,Healthy,2026-02-01 13:09:13.485377
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:09:13.485377
+https://www.india.gov.in,UP,2.64,Healthy,2026-02-01 13:09:16.122953
+https://www.incometax.gov.in,UP,1.29,Healthy,2026-02-01 13:09:17.411388
+https://www.epfindia.gov.in,UP,1.66,Healthy,2026-02-01 13:09:19.071924
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:09:25.225903
+https://data.gov.in,UP,3.73,Healthy,2026-02-01 13:09:28.965382
+https://www.meity.gov.in,UP,1.47,Healthy,2026-02-01 13:09:30.438948
+https://www.uidai.gov.in,UP,2.58,Healthy,2026-02-01 13:10:03.029263
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:10:04.355770
+https://www.digilocker.gov.in,UP,1.18,Healthy,2026-02-01 13:10:05.539757
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:10:05.585330
+https://www.india.gov.in,UP,1.52,Healthy,2026-02-01 13:10:07.109823
+https://www.incometax.gov.in,UP,1.37,Healthy,2026-02-01 13:10:08.486765
+https://www.epfindia.gov.in,UP,2.15,Healthy,2026-02-01 13:10:10.633927
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:10:16.716719
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:10:17.839401
+https://www.meity.gov.in,UP,1.35,Healthy,2026-02-01 13:10:19.190102
+https://www.uidai.gov.in,UP,1.92,Healthy,2026-02-01 13:10:51.117775
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:10:51.235010
+https://www.digilocker.gov.in,UP,3.2,Healthy,2026-02-01 13:10:54.439964
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:10:54.450565
+https://www.india.gov.in,UP,1.41,Healthy,2026-02-01 13:10:55.865267
+https://www.incometax.gov.in,UP,1.63,Healthy,2026-02-01 13:10:57.501535
+https://www.epfindia.gov.in,UP,2.88,Healthy,2026-02-01 13:11:00.383064
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:11:06.776789
+https://data.gov.in,UP,3.25,Healthy,2026-02-01 13:11:10.032416
+https://www.meity.gov.in,UP,2.75,Healthy,2026-02-01 13:11:12.783763
+https://www.uidai.gov.in,UP,0.93,Healthy,2026-02-01 13:11:36.340248
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:11:36.869240
+https://www.digilocker.gov.in,UP,1.01,Healthy,2026-02-01 13:11:37.886838
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:11:37.900550
+https://www.india.gov.in,UP,6.36,Healthy,2026-02-01 13:11:44.265441
+https://www.incometax.gov.in,UP,0.95,Healthy,2026-02-01 13:11:45.221983
+https://www.epfindia.gov.in,UP,1.97,Healthy,2026-02-01 13:11:47.188623
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:11:53.006876
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:11:54.972000
+https://www.meity.gov.in,UP,0.91,Healthy,2026-02-01 13:11:55.881319
+https://www.uidai.gov.in,UP,1.9,Healthy,2026-02-01 13:12:27.826547
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:12:28.079174
+https://www.digilocker.gov.in,UP,1.53,Healthy,2026-02-01 13:12:29.612196
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:12:29.759927
+https://www.india.gov.in,UP,12.85,Healthy,2026-02-01 13:12:42.620625
+https://www.incometax.gov.in,UP,12.0,Healthy,2026-02-01 13:12:54.625449
+https://www.epfindia.gov.in,UP,2.65,Healthy,2026-02-01 13:12:57.276522
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:13:13.519247
+https://data.gov.in,UP,15.85,Healthy,2026-02-01 13:13:29.369924
+https://www.meity.gov.in,UP,17.67,Healthy,2026-02-01 13:13:47.050816
+https://www.uidai.gov.in,UP,1.65,Healthy,2026-02-01 13:14:18.718374
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:14:19.171547
+https://www.digilocker.gov.in,UP,2.98,Healthy,2026-02-01 13:14:22.154901
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:14:22.214111
+https://www.india.gov.in,UP,11.62,Healthy,2026-02-01 13:14:33.839458
+https://www.incometax.gov.in,UP,14.0,Healthy,2026-02-01 13:14:47.844877
+https://www.epfindia.gov.in,UP,1.97,Healthy,2026-02-01 13:14:49.814271
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:14:58.430536
+https://data.gov.in,UP,6.68,Healthy,2026-02-01 13:15:05.147301
+https://www.meity.gov.in,UP,3.73,Healthy,2026-02-01 13:15:08.882896
+https://www.uidai.gov.in,UP,1.57,Healthy,2026-02-01 13:15:40.467881
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:15:40.656458
+https://www.digilocker.gov.in,UP,1.27,Healthy,2026-02-01 13:15:41.928588
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:15:41.931113
+https://www.india.gov.in,UP,2.2,Healthy,2026-02-01 13:15:44.135792
+https://www.incometax.gov.in,UP,2.29,Healthy,2026-02-01 13:15:46.435793
+https://www.epfindia.gov.in,UP,1.97,Healthy,2026-02-01 13:15:48.405953
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:15:55.389945
+https://data.gov.in,UP,4.16,Healthy,2026-02-01 13:15:59.558821
+https://www.meity.gov.in,UP,1.68,Healthy,2026-02-01 13:16:01.237925
+https://www.uidai.gov.in,UP,1.53,Healthy,2026-02-01 13:16:32.789167
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:16:32.991849
+https://www.digilocker.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:16:34.140345
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:16:34.158626
+https://www.india.gov.in,UP,1.38,Healthy,2026-02-01 13:16:35.540428
+https://www.incometax.gov.in,UP,1.76,Healthy,2026-02-01 13:16:37.300785
+https://www.epfindia.gov.in,UP,2.52,Healthy,2026-02-01 13:16:39.822658
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:16:45.945344
+https://data.gov.in,UP,3.91,Healthy,2026-02-01 13:16:49.862266
+https://www.meity.gov.in,UP,1.33,Healthy,2026-02-01 13:16:51.193457
+https://www.uidai.gov.in,UP,3.48,Healthy,2026-02-01 13:17:24.817033
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:17:25.104712
+https://www.digilocker.gov.in,UP,2.41,Healthy,2026-02-01 13:17:27.514626
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:17:27.580382
+https://www.india.gov.in,UP,14.25,Healthy,2026-02-01 13:17:41.827196
+https://www.incometax.gov.in,UP,11.55,Healthy,2026-02-01 13:17:53.378268
+https://www.epfindia.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:17:59.034922
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:18:15.620457
+https://data.gov.in,UP,14.53,Healthy,2026-02-01 13:18:30.156315
+https://www.meity.gov.in,UP,11.7,Healthy,2026-02-01 13:18:41.862885
+https://www.uidai.gov.in,UP,1.33,Healthy,2026-02-01 13:19:13.201641
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:19:13.482732
+https://www.digilocker.gov.in,UP,1.38,Healthy,2026-02-01 13:19:14.862951
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:19:14.864709
+https://www.india.gov.in,UP,1.66,Healthy,2026-02-01 13:19:16.529488
+https://www.incometax.gov.in,UP,1.25,Healthy,2026-02-01 13:19:17.776867
+https://www.epfindia.gov.in,UP,1.74,Healthy,2026-02-01 13:19:19.515735
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:19:27.059022
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:19:28.933340
+https://www.meity.gov.in,UP,1.95,Healthy,2026-02-01 13:19:30.892975
+https://www.uidai.gov.in,UP,1.62,Healthy,2026-02-01 13:20:02.540341
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:20:03.028276
+https://www.digilocker.gov.in,UP,1.46,Healthy,2026-02-01 13:20:04.488172
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:20:04.488172
+https://www.india.gov.in,UP,1.34,Healthy,2026-02-01 13:20:05.834869
+https://www.incometax.gov.in,UP,2.35,Healthy,2026-02-01 13:20:08.184088
+https://www.epfindia.gov.in,UP,2.02,Healthy,2026-02-01 13:20:10.211988
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:20:16.868005
+https://data.gov.in,UP,3.68,Healthy,2026-02-01 13:20:20.563465
+https://www.meity.gov.in,UP,1.39,Healthy,2026-02-01 13:20:21.955711
+https://www.uidai.gov.in,UP,1.43,Healthy,2026-02-01 13:20:53.414198
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:20:53.589647
+https://www.digilocker.gov.in,UP,1.62,Healthy,2026-02-01 13:20:55.213567
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:20:55.229457
+https://www.india.gov.in,UP,1.8,Healthy,2026-02-01 13:20:57.035932
+https://www.incometax.gov.in,UP,2.08,Healthy,2026-02-01 13:20:59.116248
+https://www.epfindia.gov.in,UP,2.59,Healthy,2026-02-01 13:21:01.717518
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:21:09.382668
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:21:11.258219
+https://www.meity.gov.in,UP,1.89,Healthy,2026-02-01 13:21:13.155300
+https://www.uidai.gov.in,UP,1.55,Healthy,2026-02-01 13:21:44.759577
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:21:45.431674
+https://www.digilocker.gov.in,UP,1.85,Healthy,2026-02-01 13:21:47.284515
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:21:47.298277
+https://www.india.gov.in,UP,1.45,Healthy,2026-02-01 13:21:48.753063
+https://www.incometax.gov.in,UP,1.57,Healthy,2026-02-01 13:21:50.319635
+https://www.epfindia.gov.in,UP,2.16,Healthy,2026-02-01 13:21:52.485160
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:21:58.650371
+https://data.gov.in,UP,3.51,Healthy,2026-02-01 13:22:02.178624
+https://www.meity.gov.in,UP,2.17,Healthy,2026-02-01 13:22:04.353369
+https://www.uidai.gov.in,UP,1.53,Healthy,2026-02-01 13:22:35.901105
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:22:36.203083
+https://www.digilocker.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:22:37.310472
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:22:37.326241
+https://www.india.gov.in,UP,12.02,Healthy,2026-02-01 13:22:49.347379
+https://www.incometax.gov.in,UP,11.9,Healthy,2026-02-01 13:23:01.251931
+https://www.epfindia.gov.in,UP,1.96,Healthy,2026-02-01 13:23:03.216496
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:23:19.556308
+https://data.gov.in,UP,13.6,Healthy,2026-02-01 13:23:33.160722
+https://www.meity.gov.in,UP,11.84,Healthy,2026-02-01 13:23:45.007370
+https://www.uidai.gov.in,UP,1.4,Healthy,2026-02-01 13:24:16.428408
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:24:17.429036
+https://www.digilocker.gov.in,UP,1.43,Healthy,2026-02-01 13:24:18.863668
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:24:18.869424
+https://www.india.gov.in,UP,1.51,Healthy,2026-02-01 13:24:20.375853
+https://www.incometax.gov.in,UP,12.63,Healthy,2026-02-01 13:24:33.001415
+https://www.epfindia.gov.in,UP,1.99,Healthy,2026-02-01 13:24:34.990566
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:24:52.669344
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:24:54.344342
+https://www.meity.gov.in,UP,11.56,Healthy,2026-02-01 13:25:05.906026
+https://www.uidai.gov.in,UP,1.51,Healthy,2026-02-01 13:25:37.453047
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:25:37.684475
+https://www.digilocker.gov.in,UP,2.47,Healthy,2026-02-01 13:25:40.168519
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:25:40.184278
+https://www.india.gov.in,UP,11.42,Healthy,2026-02-01 13:25:51.605284
+https://www.incometax.gov.in,UP,1.8,Healthy,2026-02-01 13:25:53.408086
+https://www.epfindia.gov.in,UP,2.15,Healthy,2026-02-01 13:25:55.562691
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:26:01.989177
+https://data.gov.in,UP,3.25,Healthy,2026-02-01 13:26:05.249425
+https://www.meity.gov.in,UP,1.92,Healthy,2026-02-01 13:26:07.171775
+https://www.uidai.gov.in,UP,4.63,Healthy,2026-02-01 13:26:41.826147
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:26:42.029278
+https://www.digilocker.gov.in,UP,2.82,Healthy,2026-02-01 13:26:44.849676
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:26:44.865329
+https://www.india.gov.in,UP,11.8,Healthy,2026-02-01 13:26:56.665616
+https://www.incometax.gov.in,UP,4.45,Healthy,2026-02-01 13:27:01.119074
+https://www.epfindia.gov.in,UP,3.43,Healthy,2026-02-01 13:27:04.551447
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:27:10.929914
+https://data.gov.in,UP,6.4,Healthy,2026-02-01 13:27:17.614602
+https://www.meity.gov.in,UP,3.98,Healthy,2026-02-01 13:27:21.593492
+https://www.uidai.gov.in,UP,3.92,Healthy,2026-02-01 13:27:55.775494
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:27:55.978230
+https://www.digilocker.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:28:01.382958
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:28:01.392759
+https://www.india.gov.in,UP,6.4,Healthy,2026-02-01 13:28:07.799115
+https://www.incometax.gov.in,UP,2.72,Healthy,2026-02-01 13:28:10.709997
+https://www.epfindia.gov.in,UP,4.52,Healthy,2026-02-01 13:28:15.228038
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:28:24.143451
+https://data.gov.in,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:28:25.494637
+https://www.meity.gov.in,UP,1.47,Healthy,2026-02-01 13:28:26.969917
+https://www.uidai.gov.in,UP,1.41,Healthy,2026-02-01 13:28:58.394310
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:28:58.740773
+https://www.digilocker.gov.in,UP,1.36,Healthy,2026-02-01 13:29:00.112559
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:29:00.142637
+https://www.india.gov.in,UP,1.32,Healthy,2026-02-01 13:29:01.481597
+https://www.incometax.gov.in,UP,1.41,Healthy,2026-02-01 13:29:02.898330
+https://www.epfindia.gov.in,UP,1.68,Healthy,2026-02-01 13:29:04.590915
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:29:10.888353
+https://data.gov.in,UP,3.83,Healthy,2026-02-01 13:29:14.723755
+https://www.meity.gov.in,UP,1.67,Healthy,2026-02-01 13:29:16.400611
+https://www.uidai.gov.in,UP,1.48,Healthy,2026-02-01 13:29:47.896477
+https://www.onlinesbi.com,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:29:48.123765
+https://www.digilocker.gov.in,UP,1.22,Healthy,2026-02-01 13:29:49.348393
+https://api.publicapis.org/entries,DOWN,,Connection failure (firewall / infra issue),2026-02-01 13:29:49.354551
+https://www.india.gov.in,UP,1.42,Healthy,2026-02-01 13:29:50.780857
+https://www.incometax.gov.in,UP,1.38,Healthy,2026-02-01 13:29:52.179678
+https://www.epfindia.gov.in,UP,2.23,Healthy,2026-02-01 13:29:54.410885
+https://www.irctc.co.in,DOWN,,Network timeout (service overloaded),2026-02-01 13:30:00.945275
+https://data.gov.in,UP,3.61,Healthy,2026-02-01 13:30:04.555751
+https://www.meity.gov.in,UP,1.54,Healthy,2026-02-01 13:30:06.093175

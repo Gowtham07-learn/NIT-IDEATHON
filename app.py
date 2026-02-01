@@ -5,7 +5,24 @@ import time
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-# Dependency mapping (can expand later)
+from digital_twin.twin_engine import run_digital_twin
+from digital_twin.scenarios import SCENARIOS
+
+# ---------------- CONFIG ---------------- #
+
+st.set_page_config(page_title="DPI Observability", layout="wide")
+st.title("DPI Services Observability Dashboard")
+
+# ---------------- MODE SELECTOR ---------------- #
+
+mode = st.radio(
+    "System Mode",
+    ["Live Monitoring", "Digital Twin Simulation"],
+    horizontal=True
+)
+
+# ---------------- DEPENDENCIES ---------------- #
+
 DEPENDENCIES = {
     "https://www.uidai.gov.in": ["https://www.digilocker.gov.in"],
     "https://www.onlinesbi.com": ["https://www.digilocker.gov.in"],
@@ -50,48 +67,36 @@ def apply_cascading_risk(risk_df):
 
         parent_risk = parent_row.iloc[0]["AI_Risk_Level"]
 
-        if parent_risk == "HIGH RISK":
-            for child in children:
-                cascaded.loc[
-                    cascaded["Website"] == child,
-                    "AI_Risk_Level"
-                ] = "HIGH RISK (CASCADING)"
-
-        elif parent_risk == "MODERATE RISK":
-            for child in children:
-                if "LOW" in str(
-                    cascaded.loc[
-                        cascaded["Website"] == child,
-                        "AI_Risk_Level"
-                    ].values
-                ):
-                    cascaded.loc[
-                        cascaded["Website"] == child,
-                        "AI_Risk_Level"
-                    ] = "MODERATE RISK (CASCADING)"
+        for child in children:
+            if parent_risk == "HIGH RISK":
+                cascaded.loc[cascaded["Website"] == child, "AI_Risk_Level"] = "HIGH RISK (CASCADING)"
+            elif parent_risk == "MODERATE RISK":
+                cascaded.loc[cascaded["Website"] == child, "AI_Risk_Level"] = "MODERATE RISK (CASCADING)"
 
     return cascaded
 
-# ---------------- STREAMLIT UI ---------------- #
+# ---------------- LOAD DATA ---------------- #
 
-st.set_page_config(
-    page_title="DPI Observability",
-    layout="wide"
-)
-
-st.title("DPI Services Observability Dashboard")
-
-# Read CSV with Reason column
 df = pd.read_csv(
     "dpi_monitor_data.csv",
     header=None,
     names=["Website", "Status", "Response_Time", "Reason", "Timestamp"]
 )
-
 df["Timestamp"] = pd.to_datetime(df["Timestamp"])
 
-# Latest status per website
 latest = df.sort_values("Timestamp").groupby("Website").tail(1)
+
+# ---------------- DIGITAL TWIN ---------------- #
+
+if mode == "Digital Twin Simulation":
+    st.subheader("🧪 Digital Twin – What-if Scenario")
+
+    scenario_name = st.selectbox("Choose Scenario", list(SCENARIOS.keys()))
+    scenario = SCENARIOS[scenario_name]
+
+    df = run_digital_twin(df, scenario)
+
+    st.warning(f"SIMULATION ACTIVE: {scenario['description']}")
 
 # ---------------- CURRENT HEALTH ---------------- #
 
@@ -100,7 +105,7 @@ st.subheader("Current Service Health + AI Risk Prediction")
 risk_rows = []
 
 for site in df["Website"].unique():
-    site_df = df[df["Website"] == site].copy()
+    site_df = df[df["Website"] == site]
     latest_row = site_df.sort_values("Timestamp").iloc[-1]
 
     risk, predicted = predict_risk(site_df)
@@ -120,61 +125,31 @@ st.dataframe(risk_df, use_container_width=True)
 
 # ---------------- ALERTS ---------------- #
 
-st.subheader("Live Alerts")
-
-for _, row in latest.iterrows():
-    if row["Status"] != "UP":
-        st.error(
-            f"{row['Website']} is DOWN\n"
-            f"Reason: {row['Reason']}"
-        )
-    elif row["Response_Time"] is not None and row["Response_Time"] > 2:
-        st.warning(
-            f"{row['Website']} is SLOW ({row['Response_Time']} sec)"
-        )
-
-# ---------------- AI EARLY WARNING ---------------- #
-
-st.subheader("AI Early Warning System")
+st.subheader("Alerts")
 
 for _, row in risk_df.iterrows():
-    reason_row = latest[latest["Website"] == row["Website"]]
-    reason_text = (
-        reason_row.iloc[0]["Reason"]
-        if not reason_row.empty
-        else "No anomaly detected"
-    )
-
     if "HIGH" in row["AI_Risk_Level"]:
-        st.error(
-            f"{row['Website']} predicted to FAIL soon!\n"
-            f"Reason: {reason_text}\n"
-            f"Predicted Response Time: {row['Predicted_Next_Response_Time']} sec"
-        )
-
+        st.error(f"{row['Website']} at HIGH RISK")
     elif "MODERATE" in row["AI_Risk_Level"]:
-        st.warning(
-            f"{row['Website']} under stress\n"
-            f"Reason: {reason_text}\n"
-            f"Predicted Response Time: {row['Predicted_Next_Response_Time']} sec"
-        )
+        st.warning(f"{row['Website']} under stress")
 
 # ---------------- RESPONSE TIME GRAPH ---------------- #
 
-st.subheader("Response Time Trend (All Services)")
+st.subheader("Response Time Trend")
 
 fig = px.line(
     df,
     x="Timestamp",
     y="Response_Time",
     color="Website",
-    markers=True
+    markers=True,
+    title=f"Response Time ({mode})"
 )
-
 st.plotly_chart(fig, use_container_width=True)
 
 # ---------------- AUTO REFRESH ---------------- #
 
-st.caption("Auto refresh every 30 seconds")
-time.sleep(30)
-st.rerun()
+if mode == "Live Monitoring":
+    st.caption("Auto refresh every 30 seconds")
+    time.sleep(30)
+    st.rerun()
