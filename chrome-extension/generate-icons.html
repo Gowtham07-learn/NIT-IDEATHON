@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Generate Icons</title></head>
+<body>
+  <h2>Generate extension icons</h2>
+  <p>Open this file in a browser, then click each button to download. Save to chrome-extension/icons/</p>
+  <canvas id="c"></canvas>
+  <br>
+  <button onclick="dl(16)">Download icon16.png</button>
+  <button onclick="dl(48)">Download icon48.png</button>
+  <button onclick="dl(128)">Download icon128.png</button>
+  <script>
+    function dl(size) {
+      const c = document.getElementById('c');
+      c.width = c.height = size;
+      const ctx = c.getContext('2d');
+      ctx.fillStyle = '#1e293b';
+      ctx.fillRect(0, 0, size, size);
+      ctx.fillStyle = '#3b82f6';
+      ctx.font = `${size*0.6}px Arial`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('📋', size/2, size/2);
+      const a = document.createElement('a');
+      a.download = `icon${size}.png`;
+      a.href = c.toDataURL('image/png');
+      a.click();
+    }
+  </script>
+</body>
+</html>

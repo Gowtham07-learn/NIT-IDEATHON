@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOP Copilot</title>
+  <style>
+    body {
+      width: 280px;
+      padding: 16px;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      margin: 0;
+    }
+    h2 { margin: 0 0 8px; font-size: 16px; font-weight: 600; }
+    p { margin: 0 0 16px; font-size: 13px; color: #94a3b8; line-height: 1.4; }
+    button {
+      width: 100%;
+      padding: 10px 16px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    button:hover { background: #2563eb; }
+    .hint { font-size: 11px; color: #64748b; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <h2>SOP Copilot</h2>
+  <p>Policy & SOP assistant on any page. Select text and ask questions.</p>
+  <button id="open-panel">Open chat panel</button>
+  <p class="hint">Backend: POST http://localhost:8000/chat</p>
+  <script src="popup.js"></script>
+</body>
+</html>
